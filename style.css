@@ -1,0 +1,333 @@
+body{
+    background:linear-gradient(140deg,rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.815)), url(images/j.webp) fixed;
+    
+
+}
+/*THE first section*/
+#news{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(140deg,rgb(99, 112, 99),black,black,rgb(58, 4, 252),black,black,rgb(55, 0, 255),black,rgb(70, 71, 70));
+}
+#news h1{
+    font-size: 40px;
+    color: white;
+}
+/*first nnews section*/
+#news1{
+    position: absolute;
+    top: 40vh;
+    height: 60vh;
+    width: 80%;
+    left: 00px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    min-height: 400px;
+    overflow:hidden ;
+    align-self: center;
+   color: white;
+   background: linear-gradient(rgba(3, 241, 3, 0.603),rgba(255, 0, 0, 0.493),rgba(255, 0, 149, 0.5),rgba(208, 255, 0, 0.541));
+   font-size: 20px;
+   border: 1px solid red;
+   border-top-right-radius: 26px;
+   border-bottom-left-radius: 26px;
+}
+
+ .container .a1{
+    position: absolute;
+    width: 400px;
+    left: 10%;
+   
+    transition: 1s;
+}
+.container .a2{
+    position: absolute;
+    width: 400px;
+    left: 600px;
+    transition: 1s;
+}
+ .container .a3{
+    position: absolute;
+    width: 400px;
+    transition: 1s;
+    left: 600px;
+}
+ .container .a4{
+    position: absolute;
+    width: 400px;
+    transition: 1s;
+    left: 600px;
+}
+ .container .a5{
+    position: absolute;
+    width: 400px;
+    transition: 1s;
+    left: 600px;
+}
+
+ .container .a6{
+    position: absolute;
+    width: 400px;
+    transition: 1s;
+    left: 600px;
+}
+ .container .a7{
+    position: absolute;
+    width: 400px;
+    transition: 1s;
+    left: 600px;
+}
+/*second news section*/
+#news2{
+    position: absolute;
+    top: 100vh;
+    height: 60vh;
+    width: 100%;
+    left: 0px;
+    background:white;
+}
+/*third news section*/
+#news3{
+    position: absolute;
+    top: 160vh;
+    height: 60vh;
+    width: 100%;
+    left: 0;
+    background:transparent;
+}
+/*fourth news section*/
+#news4{
+    position: absolute;
+    top: 220vh;
+    height: 60vh;
+    width: 100%;
+    left: 0;
+    background:white;
+}
+/*the weekday section*/
+.week{
+    position: fixed;
+    bottom: 0;
+    align-items:baseline;
+    transition: 1s;
+   display: flex;
+   
+    
+}
+.week button{
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    color: white;
+    background:linear-gradient(135deg,black,black,rgb(9, 255, 0),black,black,blue,black,black);
+    border: 1px solid yellow;
+    margin: 10px;
+    transition: 1s;
+    bottom: 0;
+}
+
+.week  #sun{
+    background: radial-gradient(black,black,rgb(8, 235, 8),black,rgb(2, 2, 235),rgb(246, 246, 247),rgb(255, 255, 255));
+}
+
+.all{
+    display: flex;
+    
+    border:1px solid black;
+}
+.all div{
+    position: absolute;
+}
+
+
+
+@media (max-width:700px) {
+    body{
+        background:linear-gradient(140deg,rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.815)), url(images/j.webp) fixed;
+        
+    
+    }
+    /*THE first section*/
+    #news{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        min-height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:linear-gradient(140deg,rgb(99, 112, 99),black,black,rgb(58, 4, 252),black,black,rgb(55, 0, 255),black,rgb(70, 71, 70));
+    }
+    #news h1{
+        font-size: 40px;
+        color: white;
+    }
+    /*first nnews section*/
+    #news1{
+        position: absolute;
+        top: 40vh;
+        height: 60vh;
+        width: 100%;
+        left: 00px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     .container{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 2%;
+        width: 90%;
+        min-height: 400px;
+        overflow:hidden ;
+        align-self: center;
+       color: white;
+       background: linear-gradient(rgba(3, 241, 3, 0.603),rgba(255, 0, 0, 0.493),rgba(255, 0, 149, 0.5),rgba(208, 255, 0, 0.541));
+       font-size: 20px;
+       border: 1px solid red;
+       border-top-right-radius: 26px;
+       border-bottom-left-radius: 26px;
+    }
+    
+     .container .a1{
+        position: absolute;
+        width: 80%;
+        left: 10%;
+       
+        transition: 1s;
+    }
+    .container .a2{
+        position: absolute;
+        width: 80%;
+        left: 600px;
+        transition: 1s;
+    }
+     .container .a3{
+        position: absolute;
+        width: 80%;
+        transition: 1s;
+        left: 600px;
+    }
+     .container .a4{
+        position: absolute;
+        width: 80%;
+        transition: 1s;
+        left: 600px;
+    }
+     .container .a5{
+        position: absolute;
+        width: 80%;
+        transition: 1s;
+        left: 600px;
+    }
+    
+     .container .a6{
+        position: absolute;
+        width: 80%;
+        transition: 1s;
+        left: 600px;
+    }
+     .container .a7{
+        position: absolute;
+        width: 80%;
+        transition: 1s;
+        left: 600px;
+    }
+    /*second news section*/
+    #news2{
+        position: absolute;
+        top: 100vh;
+        height: 60vh;
+        width: 100%;
+        left: 0px;
+        background:white;
+    }
+    /*third news section*/
+    #news3{
+        position: absolute;
+        top: 160vh;
+        height: 60vh;
+        width: 100%;
+        left: 0;
+        background:transparent;
+    }
+    /*fourth news section*/
+    #news4{
+        position: absolute;
+        top: 220vh;
+        height: 60vh;
+        width: 100%;
+        left: 0;
+        background:white;
+    }
+    /*the weekday section*/
+    .week{
+        position: fixed;
+        bottom: 0;
+        align-items:baseline;
+       
+       display: flex;
+       flex-direction: column;
+        right: -5px;
+        bottom: -500px;
+    }
+    .week button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: white;
+        background:linear-gradient(135deg,rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.37),rgba(9, 255, 0, 0.336),rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.363),rgba(0, 0, 255, 0.397),rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.336));
+        border: 1px solid yellow;
+        margin-bottom: 10px;
+        font-weight: 800;
+        overflow: hidden;
+        bottom: 0;
+    }
+    
+    .week  #sun{
+        background: radial-gradient(black,black,rgb(8, 235, 8),black,rgb(2, 2, 235),rgb(246, 246, 247),rgb(255, 255, 255));
+    }
+
+    #slide-up{
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        background-color: green;
+        transition: 1s;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: white;
+        border: none;
+    }
+    #slide-down{
+        position: fixed;
+        bottom:-100px;
+        right: 0;
+        background-color: red;
+        transition: 1s;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+        color: white;
+        rotate: 180deg;
+    }
+}
